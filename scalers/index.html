@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" type="text/css" href="/kanban/reset.css" />
+
+    <title>Kanban board</title>
+    <script src="https://kit.fontawesome.com/589957875e.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <!-- color palette -->
+        <div class="palette">
+          <div class="pink color"></div>
+          <div class="green color"></div>
+          <div class="blue color"></div>
+          <div class="black color"></div>
+        </div>
+        <div class="btn-container">
+          <!-- add and delete buttons -->
+          <div class="addBtn btn">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="deleteBtn btn">
+            <i class="fa-solid fa-times"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="mainContainer">
+      <!-- textArea -->
+      <div class="modal_container">
+        <textarea class="textarea" placeholder="Enter your task"></textarea>
+        <div class="color_palette">
+          <div class="pink colorPalette"></div>
+          <div class="green colorPalette"></div>
+          <div class="blue colorPalette"></div>
+          <div class="black colorPalette active"></div>
+        </div>
+      </div>
+    </main>
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
