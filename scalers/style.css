@@ -1,0 +1,149 @@
+/* css styles */
+.header {
+  background-color: #4b4b4b;
+  display: flex;
+  height: 90px;
+  align-items: center;
+}
+
+.palette {
+  display: flex;
+  background-color: #3d3d3d;
+  width: 250px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.color {
+  height: 25px;
+  width: 45px;
+  background-color: aqua;
+}
+.color:hover {
+  background-color: #485460;
+}
+
+.pink {
+  background-color: lightpink;
+}
+.green {
+  background-color: lightgreen;
+}
+.blue {
+  background-color: lightblue;
+}
+.black {
+  background-color: black;
+}
+
+.btn-container {
+  background-color: #3d3d3d;
+  display: flex;
+  height: 50px;
+  width: 80px;
+  margin-left: 30px;
+}
+.addBtn {
+  font-size: 20px;
+  background-color: #3d3d3d;
+  color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addBtn:hover {
+  background-color: #4b8543;
+}
+.deleteBtn {
+  font-size: 20px;
+  width: 50%;
+  background-color: #3d3d3d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteBtn:hover {
+  background-color: #4b8543;
+}
+
+.active {
+  border: 3px solid salmon;
+}
+
+.colorPalette {
+  height: 25px;
+  width: 40px;
+}
+
+.modal_container {
+  display: none;
+  height: 40vh;
+  width: 60vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  /* position: absolute; */
+  z-index: 1;
+}
+
+.textarea {
+  width: 75%;
+  outline: none;
+  height: 100%;
+  background-color: #dfe4ea;
+  resize: none;
+  border: none;
+  padding: 0%;
+  font-size: 25px;
+}
+
+.color_palette {
+  background-color: #4b4b4b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+}
+
+#mainContainer {
+  height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.ticketCont {
+  height: 192px;
+  width: 200px;
+  background-color: coral;
+  position: relative;
+  margin: 20px;
+}
+
+.ticketClr {
+  height: 16px;
+}
+
+.ticketId {
+  height: 32px;
+  background-color: yellow;
+}
+
+.ticketLock {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
